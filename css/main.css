@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #c9781f;  
+}
+ul{
+	list-style-type: none;
+}
+.soda ul{
+	float: left;
+	width: 150px;
+	height: 300px;
+	background: white;
+	text-align: center;
+	line-height: 100px;
+}
+.soda ul li{
+	cursor: pointer;
+}
+#coke{
+	background:#ff7d66;
+}
+#dietcoke{
+	background:#dddddd;
+}
+#cherrycoke{
+	background:#f264fb;
+}
+#sprite{
+	background:#c3ffb1;
+}
+#spritezero{
+	background:#9ccafe;
+}
+#orange{
+	background:#fec89c;
+}
+#mtdew{
+	background:#fefb9c;
+}
+#dietmtdew{
+	background:#cd9cfe;
+}
+#depepper{
+	background:#e6fe9c;
+}
+#soda-price{
+	margin-left: 50px;
+	margin-top: 300px;
+	font-size: 22px;
+}
+#amount-paid{
+	margin-left: 50px;
+	height: 40px;
+	width: 100px;
+}
+#get-soda{
+	height: 40px;
+	width: 200px;
+}
+#output{
+	margin-left: 50px;
+	margin-top: 10px;
+	font-size: 22px;

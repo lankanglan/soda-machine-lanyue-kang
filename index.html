@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Soda machine</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+	<body>
+	<h1>Soda machine</h1>
+				<div class="soda">
+					<ul id="sodas">
+						<li id="coke" data-price="1.25">COKE</li>
+						<li id="dietcoke" data-price="1">DIET COKE</li>
+						<li id="cherrycoke" data-price="1.75">CHERRY COKE</li>
+						</ul>
+						<ul id="sodas">
+						<li id="sprite" data-price="0.75">SPRITE</li>
+						<li id="spritezero" data-price="0.95">SPRITE ZERO</li>
+						<li id="orange" data-price="1.15">ORANGE</li>
+						</ul >
+						<ul id="sodas">
+						<li id="mtdew" data-price="2.10">MT DEW</li>
+						<li id="dietmtdew" data-price="2">DIET MT DEW</li>
+						<li id="depepper" data-price="3">DE PEPPER</li>
+					</ul>
+				</div>	
+<div id="soda-price">This soda costs <span id="cost"></span></div>
+<input id="amount-paid" type="number" placeholder="Input money here" />
+<button id="get-soda">Give me soda</button>
+<div id="output"></div>
+
+	</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
